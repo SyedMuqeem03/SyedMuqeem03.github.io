@@ -1,0 +1,100 @@
+@media screen and (max-width: 700px) {
+
+  .nav-logo {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3rem;
+    padding-top: 1 rem;
+    font-size: 1.5rem;
+
+
+  }
+
+  body {
+    width: 100%;
+  }
+
+  .profile-text {
+    padding: 3rem 3rem;
+  }
+
+  .profile-text-1 {
+    font-size: 2.5rem;
+  }
+
+  .profile-title {
+    font-size: 3.5rem;
+  }
+
+  #nav-bar {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+  }
+
+  .nav-links {
+    gap: 1rem;
+    list-style: none;
+    float: left;
+  }
+
+  .about-containers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-container {
+    width: 100%;
+  }
+
+  #about {
+    align-items: center;
+  }
+
+  .about-text {
+    font-size: x-large;
+    text-align: center;
+    margin: 0;
+  }
+
+  .skills-containers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  .skills-container {
+    width: 40%;
+  }
+
+  .contact-containers {
+    display: flex;
+    flex-direction: column;
+    height: 13rem;
+    gap: 2rem;
+
+  }
+
+  .contact-container {
+    justify-content: normal;
+  }
+
+  .btn-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+  }
+
+  .btn-1 {
+    width: 12rem;
+    height: 4rem;
+  }
+
+  .btn-2 {
+    width: 12rem;
+    height: 4rem;
+  }
+}
